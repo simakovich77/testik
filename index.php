@@ -76,5 +76,9 @@ $foo->huiatina("dfgdfgd","1aaaaa");
  333
  </div>
 </a>
+
+<div class="cl2">
+222
+</div>
  </body> 
  </html>
