@@ -21,6 +21,11 @@ public function prop($var)
  echo "Вызов метода '$name' "
              . implode(', ', $arguments). "\n";
  }
+ 
+ public function __get($name) 
+    {
+        echo "Получение '$name'\n";
+	}
 	
 }
 
@@ -56,7 +61,7 @@ echo Dimka::const_val;
 $foo = new Dimka;
 $foo->prop(1);
 $foo->huiatina("dfgdfgd","1aaaaa");
-
+$foo->hah1;
 ?>
 
 <!DOCTYPE html>
