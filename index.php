@@ -55,7 +55,26 @@ public function result($ar){
 echo Dimka::const_val;
 $foo = new Dimka;
 $foo->prop(1);
-$b=array('h','u','i');
-$foo->huiatina($b);
+$foo->huiatina("dfgdfgd","1aaaaa");
 
 ?>
+
+<!DOCTYPE html>
+ <html lang="ru"> 
+ <head> <meta charset="utf-8" /> 
+ <title>Документ вао</title>
+ <script src="jquery-3.2.1.js"></script>
+ <script src="script.js"></script>
+ <link rel="stylesheet" href="stule.css">
+  
+ 
+ </head> 
+ <body> 
+ 123
+ <a href="">
+ <div class="cl1">
+ 333
+ </div>
+</a>
+ </body> 
+ </html>
